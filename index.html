@@ -5,12 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>Guess My Number</h1>
+            <p>Guess a random number</p>
+            <div class="range-inputs">
+                <input class="range-input" type="text" id="min" placeholder="Min">
+                <input class="range-input" type="text" id="max" placeholder="Max">
+                <button id="new-target">New Target</button>
+            </div>
+        </header>
 
-    <!-- <script src="./object.js"></script> -->
-    <script src="./practice.js"></script>
+        <main>
+            <p class="message"></p>
+            <input type="text" id="guessInput" class="guess" />
+            <button id="check_btn">Guess</button>
+        </main>
+
+    </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
